@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+:root {
+    --wiki-white: #ffffff;
+    --wiki-discord-color: #5865f2;
+    --wiki-pink: #FBB848;
+    --wiki-bg: #131415;
+    --wiki-red: #E33939;
+    --wiki-text-dark: #1E1C2B;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: var(--wiki-bg);
+    max-width: 1400px;
+    margin: 40px auto;
+    color: var(--wiki-white);
+    font-family: Poppins;
+  }
+  
+  a {
+    color: var(--wiki-white);
+    text-decoration: none;
+}
+
+.text-white {
+    color: var(--wiki-pink);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Poppins;
+}
+
+nav a {
+    margin-right: 45px;
+    font-family: Poppins;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+/* Menu Bitiş */
+
+
+
+/* Sections Sayfaları*/
+
+
+
+/* Butonlar */
+
+.btn {
+    padding: 15px 30px !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+.btninvite {
+    padding: 15px 60px !important;
+    border: none !important;
+    cursor: pointer !important;
+    width: 270px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn-main {
+    background: var(--wiki-pink);
+    color: var(--wiki-white);
+    font-weight: 600;
+    border-radius: 25px;
+    transition-duration: 300ms;
+    -webkit-box-shadow: 1px 2px 29px 0px rgba(251,184,72,1);
+    -moz-box-shadow: 1px 2px 29px 0px rgba(251,184,72,1);
+    box-shadow: 1px 2px 29px 0px rgba(251,184,72,1);
+}
+
+.btn-main:hover{
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(251,184,72,1);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(251,184,72,1);
+    box-shadow: 0px 0px 0px 0px rgba(251,184,72,1);
+    transition-duration: 0.9s;
+}
+
+.btn-dark {
+    background: var(--wiki-text-dark) !important;
+    color: var(--wiki-white) !important;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+
+/* Ana Sayfa*/
+
+.image .animeg {
+    margin-left: 200px;
+    margin-top: 3rem;
+    z-index: -1;
+    position: absolute;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.daire{
+    position: absolute;
+    display: flex;
+    z-index: -2;
+}
+
+
+main .anime {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin-top: 13%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text span {
+    color: var(--wiki-pink);
+    text-shadow: 1px 4px 7px #FDA30E, 1px -3px 9px rgba(253,163,14,0.6);
+}
+
+.anime h1 {
+    font-size: 70px;
+}
+
+.text p {
+    color: #595454;
+    font-weight: 800;
+}
+
+/* Mainpage */
+
+.mainpage {
+    min-height: 900px;
+}
+
+/* Mainpage End */
+
+/* Infopage */
+
+.infopage {
+    display: flex;
+    flex-direction: column;
+}
+
+.infopage-header {
+    text-align: center;
+}
+
+.infopage-header h1 {
+    font-size: 64px;
+}
+
+.infopage-header p {
+    color: #595454;
+}
+
+.infopage-footer {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.infopage-footer-left p {
+    max-width: 80%;
+}
+
+.infopage-footer-left h1 {
+    color: var(--wiki-pink);
+    font-size: 40px;
+}
+
+/* Infopage End */
+
+
+/* Server Control */
+
+.server-control {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.server-control-right h1 {
+    color: var(--wiki-pink);
+    font-size: 40px;
+}
+
+.server-control-right {
+    max-width: 50%;
+}
+
+/* Server Control End */
+
+/* Uncover Start */
+.uncover {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.uncover-left h1 {
+    color: var(--wiki-pink);
+    font-size: 40px;
+}
+
+.uncover-left p {
+    max-width: 70%;
+}
+
+.uncover-right {
+    margin-right: 5%;
+}
+
+
+/* Uncover End */
+
+/* Always Start */
+.always {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.always-left h1 {
+    color: var(--wiki-pink);
+    font-size: 40px;
+}
+
+.always-left p {
+    width: 70%;
+}
+
+.always-left {
+    margin-left: 8%;
+}
+
+/* Always End */
+
+
+/* Upgrade */
+
+.upgrade {
+    background: #FAD596;
+    color: var(--wiki-text-dark);
+    border-radius: 30px;
+    margin-top: 8rem;
+}
+
+.upgrade h1 {
+    font-size: 48px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.upgrade-footer {
+    display: flex;
+}
+
+.upgrade-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.upgrade-left div:first-child {
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.upgrade-left div:last-child {
+    text-align: center;
+}
+
+/* Upgrade End */
